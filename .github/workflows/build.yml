@@ -34,5 +34,5 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            flowerbirds/code-online-python:${{ vars.PYTHON_TAG }}
-            ghcr.io/flowerbirds/code-online-python:${{ vars.PYTHON_TAG }}
+            flowerbirds/${{ vars.IMAGE_NAME }}:${{ vars.PYTHON_TAG }}
+            ghcr.io/flowerbirds/${{ vars.IMAGE_NAME }}:${{ vars.PYTHON_TAG }}
