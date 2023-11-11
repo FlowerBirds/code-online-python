@@ -5,3 +5,6 @@ RUN apt-get update && apt-get install -y git && apt-get install -y gcc \
 
 # 离线安装第三方包
 RUN pip install tornado pymysql pandas numpy scikit-learn requests statsmodels scipy pyecharts matplot seaborn cx_Oracle redis jupyter notebook
+
+# 安装PySpark
+RUN pip install pyspark
